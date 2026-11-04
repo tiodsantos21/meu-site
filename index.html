@@ -1,1 +1,38 @@
 
+
+	Atue como um desenvolvedor especialista em interfaces para automação industrial (padrão Indústria 4.0). Crie o código completo de uma aplicação web em um ÚNICO arquivo HTML (utilizando HTML5, componentes interativos de JavaScript puro e estilização moderna via Tailwind CSS por CDN). 
+
+O sistema deve ser um "Guia Visual de Redes para Automação", focado no treinamento de técnicos e eletricistas iniciantes.
+
+Siga estritamente as diretrizes de design, estrutura e funcionamento abaixo:
+
+1. **Estética do Dashboard Industrial:**
+   - Use um tema escuro (Dark Mode profissional): fundo cinza grafite bem escuro (`bg-slate-900` ou similar), textos brancos/cinza claros e bordas sutis.
+   - Utilize cores de destaque de alta tecnologia: Azul Ciano para elementos de seleção, Verde Neon para status ativos/online e Roxo ou Laranja para a tag de versão.
+
+2. **Identificação de Versão (v6):**
+   - No topo do site, ao lado do título principal "Guia Visual de Redes para Automação", inclua uma badge/tag estilizada e bem visível escrita "Versão v6".
+
+3. **Estrutura de Duas Abas Principais:**
+   - O topo do site deve conter botões de alternância (Abas) para duas seções: "🔌 Meios Físicos (Cabos)" e "📐 Simulador de Topologia".
+
+4. **Regras da Aba 1: Meios Físicos (Cabos):**
+   - **Cards Superiores (Botões Limpos):** Exiba 3 cards alinhados em grid: "Par Trançado", "Fibra Óptica" e "Cabo RS-485". Eles devem ser limpos, contendo APENAS o título e um ícone/emoji no topo. Ao passar o mouse, devem ter efeito de hover suave. Eles não devem mostrar textos longos ou badges inicialmente.
+   - **Painel de Detalhes Inferior Dinâmico:** Abaixo dos cards, crie um painel com borda azul ciano que começa oculto. Quando um dos 3 cards for clicado, este painel se abre mostrando as informações do cabo em duas colunas (Imagem na esquerda, Dados na direita) e um botão "X" para fechar.
+   - **Links das Imagens Técnicas Reais (Livres de bloqueio local):** Use exatamente os links abaixo para o atributo src de cada cabo (são imagens do Unsplash focadas em redes e fios, sem paisagens):
+     * Par Trançado: https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=600&h=400&q=80
+     * Fibra Óptica: https://images.unsplash.com/photo-1601524909162-be87252be298?auto=format&fit=crop&w=600&h=400&q=80
+     * Cabo RS-485: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&h=400&q=80
+   - **Conteúdo Técnico da Direita:**
+     * Par Trançado: Texto: "Cabo de rede comum (Ethernet/Profinet). Usado para ligar o CLP ao computador do supervisor, além de conectar switches e IHMs." Badges: "Custo: Baixo", "Flexibilidade: Alta", "Distância: Máx. 100m".
+     * Fibra Óptica: Texto: "Cabo de filamentos de vidro. Usado para levar dados a longas distâncias na fábrica e interligar blocos industriais sem sofrer nenhuma interferência eletromagnética de grandes motores." Badges: "Imunidade a Ruídos: Excelente", "Custo: Alto", "Banda: Gigabit+".
+     * Cabo RS-485: Texto: "Cabo de dois fios trançados com blindagem malhada (A e B). Padrão físico indispensável na indústria para comunicação serial robusta entre CLPs, inversores de frequência e instrumentos de campo." Badges: "Protocolos: Modbus RTU / Profibus DP", "Distância: até 1200m", "Topologia: Barramento".
+
+5. **Regras da Aba 2: Simulador de Topologia:**
+   - Apresente dois botões grandes: "Layout em Barramento" e "Layout em Estrela".
+   - Ao clicar em cada um, exiba um bloco explicativo com as Vantagens, Desvantagens e uma pequena representação visual simples feita com elementos HTML/CSS (caixas representando as máquinas e linhas representando os cabos de rede).
+
+6. **Otimização do Código:**
+   - O código deve ser direto e funcional. Remova todas as linhas de comentários longos ou repetitivos para manter o arquivo leve e fácil de copiar.
+
+Forneça o código completo e unificado dentro de um único bloco de código HTML pronto para uso.
